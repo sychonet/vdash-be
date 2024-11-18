@@ -1,0 +1,21 @@
+{
+    "name": "VDASH-BE",
+    "dockerComposeFile": "docker-compose.yml",
+    "workspaceFolder": "/app",
+    "service": "vdash-be",
+    "customizations": {
+        "vscode": {
+          "settings": {},
+          "extensions": [
+            "golang.go",
+            "eamodio.gitlens",
+            "GitHub.copilot"
+          ]
+        }
+    },
+    "forwardPorts": [7201],
+    "features": {
+      "git": "os-provided"
+    },
+    "overrideCommand": true
+}

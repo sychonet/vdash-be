@@ -1,0 +1,14 @@
+services:
+  vdash-be:
+    build: .
+    volumes:
+      - ..:/app
+    env_file:
+      - .env.local
+    networks:
+      - vdash-be-net
+    ports:
+      - "7201:7201"
+networks:
+  vdash-be-net:
+    driver: bridge
