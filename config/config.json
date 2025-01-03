@@ -1,0 +1,19 @@
+{
+    "application": {
+        "port": "7201",
+        "env": "dev"
+    },
+    "database": {
+        "host": "localhost",
+        "port": "27017",
+        "username": "admin",
+        "password": "password",
+        "name": "vdash",
+        "serversCollection": "scaleway_servers",
+        "ipsCollection": "scaleway_ips"
+    },
+    "scaleway": {
+        "baseurl": "https://api.online.net",
+        "token": "Bearer 9f7209e4e16dfd25e3ffe281a19a2c4c19a4d008"
+    }
+}
